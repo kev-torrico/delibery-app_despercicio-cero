@@ -12,13 +12,11 @@ import SupermarketCarousel from "../component/SupermarketCarousel";
 export const Home = () => {
   return (
     <div>
-      <Navbar />
       <Reviews />
       <Banner />
       <SupermarketCarousel />
       <FeaturedProductsCarousel />
       <BakeryCarousel />
-      <Footer />
     </div>
   );
 };
